@@ -8,10 +8,24 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/forms.css">
+  <style>
+    .hamlet{
+      /*  background-color: yellow; */
+    }
+
+    #play span{
+     /* background-color:blue; */
+    }    
+
+
+
+
+
+  </style>
  </head>
  <body>
      <header>
-     <h1 class="page-header">Site Name</h1>
+     <h1 class="page-header">DOM Play</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
             <a href="#">Link</a>
@@ -22,7 +36,16 @@
      </header>
      
    <main class="wrapper">
-       <h2 class="subheader">Project Name</h2>
+      <h2 class="subheader">DOM Play for Joker (2019)</h2>
+      <div id="play">
+      <p><span data-actor="joker">Joker: My name is Arthuer. I'm Penny's son. I know you didn't know about me, and I don't anything from you. Well... maybe a hug.</span></p>
+      <p><span data-actor="thomas wayne">Thomas Wayne: Jesus? You're the guy who came by my house yesterday.</span></p>
+      <p><span data-actor="joker">Yes. But they wouldn't let me in, wouldn't let me see you. So I came here. I have so many questions.</span></p>
+      <p><span data-actor="thomas wayne">Thomas Wayne: Look pal, I'm not your father. What's wrong with you?</span></p>
+      <p><span data-actor="joker">Joker: How do you know?</span></p>
+      </div>
+
+      
      <footer>
       <p><small>&copy; 2021-<span id="this-year"></span> by 
           Lonny Le, All Rights Reserved ~ 

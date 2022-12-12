@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Spectral');
 
 html {
-    background-color: #eae7dc;
+    background-color: #ffffff;
     font-family: 'Courier Prime';
     font-size: 0.95em;
     line-height: 1.5em;
@@ -12,7 +12,7 @@ html {
 
 ::selection {
     color: #000; 
-    background: #ff0;
+    background: rgb(255, 255, 255);
 }
 
 body{
@@ -33,7 +33,7 @@ h1.page-header {
 
 
 main.wrapper {
-    background-color: #d8c3a5;
+    background-color: #ffffff;
     overflow: auto;
 }
 
@@ -48,7 +48,7 @@ h2,h3 {
 }
 
 a {
-    color:#8E8D8A;
+    color:#73c8f2;
     text-decoration: none;
 }
 
